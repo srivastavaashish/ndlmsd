@@ -34,7 +34,7 @@
 
 	in 'data' folder, run the following command (for ciao dataset)
 
-		python preprocessing_data_ciao.py
+		python preprocessing_ciao.py
 
 6. Train Vectors:
 
