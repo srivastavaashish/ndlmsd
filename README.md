@@ -79,3 +79,6 @@
 		
 		python src/idcwe_main_sa.py --data_dir data --results_dir results --trained_dir trained --data yelp --device 1 --lr 0.000003 --n_epochs 7 --lambda_a 0.1 --lambda_w 100 --social_dim 50 --gnn roland --save_interval 5 --mini_batch_size 34789
 	
+Acknowledgement:
+We have used "Dynamic contextualized word embeddings" paper as the baseline reference and modified its implementation for our usage. 
+Hofmann, V., Pierrehumbert, J.B. and Schütze, H., 2020. Dynamic contextualized word embeddings. arXiv preprint arXiv:2010.12684.
